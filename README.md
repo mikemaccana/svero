@@ -188,7 +188,7 @@ Think of it as a simpler middleware. A condition will run *before* the route loa
 There is also an useful `<Link>` component that overrides `<a>` elements:
 
 ```html
-<Link href="path/here" className="btn">Hello!</Link>
+<Link href="path/here" className="btn" title="Here">Hello!</Link>
 ```
 
 The difference between `<Link>` and `<a>` is that it uses `pushState` whenever possible, with fallback to `<a>` behavior. This means that when you use `<Link>`, svero can update the view based on your URL trigger, without reloading the entire page.
